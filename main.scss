@@ -1,0 +1,12 @@
+$dropdown-padding-x:                0px;
+$dropdown-padding-y:                1rem;
+$dropdown-border-color:          transparent;
+$dropdown-divider-margin-y:         0px;
+
+$warning: #FF8D00;
+$info: #ffd000;
+$success: purple;
+$danger: red;
+$list-group-active-bg:             #212529;
+
+@import "node_modules/bootstrap/scss/bootstrap";

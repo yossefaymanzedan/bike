@@ -1,0 +1,81 @@
+/* Responsive design */
+/* Custom dropdown */
+@media only screen and (max-width: 575.98px) {
+    .dropdown_custom {
+        width: 75vw;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .dropdown_custom {
+        width: 75vw;
+    }
+
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .customer_photo img {
+        max-height: 120px;
+        min-height: 120px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .customer_photo img {
+        max-height: 150px;
+        min-height: 150px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .customer_photo img {
+        max-height: 200px;
+        min-height: 200px;
+    }
+}
+@media (min-width: 1400px)  {
+    .customer_photo img {
+        max-height: 200px;
+        min-height: 200px;
+    }
+    .product .tab-pane img {
+    max-height: 500px;
+    min-height: 500px;
+    }
+    .cart table img {
+        max-height: 150px;
+        max-height: 150px;
+        }
+}
+.dropdown_custom {
+    width: 400px;
+}
+/* Home */
+.home {
+    background-image: url(https://wallpaper.dog/large/20493175.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.home .col-md-8 {
+    background-color: #ffd00089;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 200px;
+    padding-right: 150px;
+    padding-left: 150px;
+    box-shadow: 0 5rem 8rem black;
+}
+
+/* Customer photos */
+/* Footer */
+footer {
+    background-color: black;
+}
+/* Contact from */
+.contact {
+    background-image: url(bik1.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
